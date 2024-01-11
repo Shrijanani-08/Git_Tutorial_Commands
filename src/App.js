@@ -1,5 +1,6 @@
 import "./App.css";
 import AddFileOne from "./components/AddFileOne";
+import DevComponent from "./components/DevComponent";
 import Filefour from "./components/Filefour";
 import Fileone from "./components/Fileone";
 import Filethree from "./components/Filethree";
@@ -35,8 +36,18 @@ function App() {
         To check which branch name <b>git branch</b>
       </p>
       <p>
-        To remove Filefour - <b></b>
+        To remove Filefour - <b>rm src/components/Filefour.js</b>
       </p>
+      <p>
+        To restore Filefour - <b>git restore .</b>
+      </p>
+      <p>
+        To create new branch - <b>git branch dev</b>
+      </p>
+      <p>
+        To checkout to the another branch - <b>git checkout main</b>
+      </p>
+      <DevComponent />
     </div>
   );
 }
