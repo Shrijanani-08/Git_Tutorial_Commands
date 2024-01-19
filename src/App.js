@@ -1,6 +1,7 @@
 import "./App.css";
 import AddFileOne from "./components/AddFileOne";
 import DevComponent from "./components/DevComponent";
+import Filefive from "./components/Filefive";
 import Filefour from "./components/Filefour";
 import Fileone from "./components/Fileone";
 import Filethree from "./components/Filethree";
@@ -48,6 +49,7 @@ function App() {
         To checkout to the another branch - <b>git checkout main</b>
       </p>
       <DevComponent />
+      <Filefive />
     </div>
   );
 }
